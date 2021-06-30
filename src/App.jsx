@@ -1,5 +1,5 @@
-import React from 'react';
-import Giphy from './components/Giphy';
+import React from 'react'
+import Giphy from './components/Giphy'
 import './App.css'
 function App (){
     
