@@ -14,12 +14,12 @@ function Paginate({ totalItems, itemsPerPage, currentPage, pageSelected }) {
     
    
     }
-    console.log(items)
+  
  
     return (
         <Row>
             <Col >
-            <Pagination className="justify-content-end p-3 mr-5">{items}</Pagination>
+            <Pagination className="justify-content-end ">{items}</Pagination>
             </Col>
         
         </Row>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-body {
+/* body {
   background-color: black;
-}
+} */
 
 .gifs {
   margin: 0 auto;
@@ -17,4 +17,12 @@ body {
 
 .loader {
   color: blue;
+}
+.dark {
+  background-color:#263238;
+  color: #fff;
+}
+.light {
+  background-color: #ecffe1;
+  color: #263238;
 }

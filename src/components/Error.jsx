@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Alert} from 'react-bootstrap'
 function Error() {
-    const [show, setShow] = useState(true);
   
-    if (show) {
       return (
         <Alert variant="danger">
           <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
@@ -14,7 +12,7 @@ function Error() {
           </p>
         </Alert>
       );
-    }
+    
  
   }
   export default Error;

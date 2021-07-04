@@ -3,8 +3,6 @@ import axios from 'axios';
 import Loader from './Loader'
 import Error from './Error'
 import Paginate from './Paginate'
-import { Col } from 'react-bootstrap'
-import { FcLikePlaceholder } from 'react-icons/fc'
 import SearchInput from './SearchInput';
 function Giphy() {
     const [data, setData] = useState([])
@@ -77,7 +75,7 @@ function Giphy() {
     }
 
     return (
-        <div className="m-2 container-fluid">
+        <div className="mt-2 container-fluid">
             {renderError()}
             <SearchInput setIsError={setIsError}
             setIsLoading={setIsLoading}
