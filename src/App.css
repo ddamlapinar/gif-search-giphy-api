@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-/* body {
-  background-color: black;
-} */
 
+.container--gifs{
+  min-height: 100vh;
+}
 .gifs {
   margin: 0 auto;
   width: 80%;
